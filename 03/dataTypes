@@ -1,0 +1,17 @@
+"use strict";
+
+// alert(3+3) // we are using node js, not browser
+
+// dataTypes
+let name = "mohit" // string -> sequence of characters
+let a = 9 // number -> 1,2,3,4,5.6,7.8933
+let isTrue = false // boolean
+let isFalse = true // boolean
+let c; // undefined
+let d = null // Null
+// symbol -> unique
+
+console.log(typeof null) // object
+console.log(typeof undefined) // undefined
+
+console.table([name, a, isTrue, isFalse, c, d])
